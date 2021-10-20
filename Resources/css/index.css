@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 40px 50px;
+}
+
+h1 {
+    margin: 30px 40px;
+    Font-Family: 'Unica One', Cursive;
+    Font-Size: 52px;
+    text-transform: uppercase;
+    font-weight: lighter;
+    color: hsl(195, 3%, 21%);
+}
+
+h2 {
+    margin: 0 20px;
+    Font-Family: 'Unica One', Cursive;
+    Font-Size: 36px;
+    font-weight: lighter;
+    color: hsl(195, 3%, 21%);
+}
+
+p {
+    Font-Family: 'Crimson Text', Serif;
+    font-size: 20px;
+}
+
+.container {
+    display: block;
+    border: 5px solid cadetblue;
+    padding: 30px 10px;
+    margin: 30px 40px;
+}
+
+.box {
+    display: inline-block;
+    height: 148px;
+    width: 20%;
+    min-width: 196px;
+    border: 1px solid black;
+    margin: 20px;
+}
+
+.box p {
+    display: block;
+    font-size: 20px;
+    line-height: 2em;
+    text-align: center;
+    margin-block-start: 20px;
+    margin-block-end: 20px;
+    padding: 0 20px;
+}
+
+.color-pbg {
+    background-color: hsl(203, 59%, 43%);
+}
+
+.color-color {
+    background-color: hsl(180, 2%, 91%);
+}
+
+.color-bg {
+    background-color: hsl(195, 3%, 21%);
+    color: white;
+}
+
+.color-border {
+    background-color: hsl(144, 39%, 77%);
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.Unica p {
+    font-size: 20px;
+    font-family: 'Unica One', Cursive;
+}
+
+.font {
+    display: inline-block;
+    margin: 20px;
+    line-height: 2em;
+}
+
+#style-h1 {
+    Font-Family: 'Unica One', Cursive;
+    Font-Size: 52px;
+    text-transform: uppercase;
+    font-weight: lighter;
+    margin: 20px;
+}
+
+#style-h2 {
+    Font-Family: 'Unica One', Cursive;
+    Font-Size: 36px;
+    font-weight: lighter;
+    margin: 20px;
+}
+
+#style-p {
+    Font-Family: 'Crimson Text', Serif;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.styles li {
+    margin-left: 60px;
+    font-size: 20px;
+}
